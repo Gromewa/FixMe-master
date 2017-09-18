@@ -17,9 +17,9 @@ public class Control {
         CrudService powerBankCrudService= ServiceFactory.getPowerBankCrudService();
         PowerBankService powerBankService=ServiceFactory.getPowerBankService();
 
-        PowerBank powerBank = PowerBank.builder().color("White").price(234).weight(500).build();
-        PowerBank powerBank2 = PowerBank.builder().color("White").price(234).weight(500).build();
-        PowerBank powerBank3 = PowerBank.builder().color("White").price(234).weight(500).build();
+        PowerBank powerBank = PowerBank.builder().color("Red").price(2345).weight(411).build();
+        PowerBank powerBank2 = PowerBank.builder().color("Blue").price(231).weight(322).build();
+        PowerBank powerBank3 = PowerBank.builder().color("White").price(230).weight(497).build();
         PowerBank powerBank4 = PowerBank.builder().color("White").price(234).weight(500).build();
 
         powerBankCrudService.save(powerBank);
